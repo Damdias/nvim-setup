@@ -42,6 +42,8 @@ keymap({"n", "v"}, "<leader>cp", "<cmd>lua require('vscode').action('workbench.a
 keymap({"n", "v"}, "<leader>pr", "<cmd>lua require('vscode').action('code-runner.run')<CR>")
 keymap({"n", "v"}, "<leader>fd", "<cmd>lua require('vscode').action('editor.action.formatDocument')<CR>")
 keymap({"n", "v"}, "<leader>ffe", "<cmd>lua require('vscode').action('workbench.files.action.focusFilesExplorer')<CR>")
+keymap({"n", "v"}, "<leader>sb", "<cmd>lua require('vscode').action('workbench.action.toggleSidebarVisibility')<CR>")
+keymap({"n", "v"}, "<leader>cc", "<cmd>lua require('vscode').action('editor.action.commentLine')<CR>")
 
 -- harpoon keymaps
 keymap({"n", "v"}, "<leader>ha", "<cmd>lua require('vscode').action('vscode-harpoon.addEditor')<CR>")
